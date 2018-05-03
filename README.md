@@ -21,6 +21,10 @@ function nano(template, data) {
 [Moment](http://momentjs.com/) 提供日期转换，时区调整等函数 `注意：自带Date类型强转时的时区问题`   
 
 
+#### Validator
+[Validator](https://www.npmjs.com/package/validator) 校验或过滤需要验证的值  
+- [Express-validator](https://www.npmjs.com/package/express-validator) 校验express获取的请求值，并给予默认的错误返回，由于express的路由可以添加链式处理，所以校验也可以是链式的
+
 ### Tools
 
 #### Data Structure
